@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: market;
+  src: url(./assets/coolvetica\ condensed\ rg.ttf);
+}
+
+body {
+  font-family: market !important;
+  background-color: #FaF7F0;
+}
