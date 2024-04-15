@@ -13,7 +13,7 @@ const Project = ({ img, title, title2, dir = 'rtl' }) => {
                         <h3 className="text-[2.5vw] uppercase font-[300] text-[#001524] w-full tracking-[2px]">{title}</h3>
                         <div className='flex flex-col gap-4'>
                             <h2 className='uppercase font-[400] text-[#001524] text-[4.5vw]'>{title2}</h2>
-                            <p className='text-[#444]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptatum!</p>
+                            <p className='text-[#444] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo, voluptatum!</p>
                         </div>
                         <Button />
                     </section>
