@@ -19,7 +19,7 @@ const NavBarMobile = () => {
                             initial={{ y: 100, }}
                             animate={{ y: 0, }}
                             exit={{ y: 100, }}
-                            transition={{ duration: 0.5, ease: 'linear', delay: 0.5 }}
+                            transition={{ duration: 1, ease: 'linear', delay: 0.5 }}
                             className='translate-y-[0] block'>
                             {e}
                         </motion.span>
