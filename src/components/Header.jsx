@@ -15,7 +15,7 @@ const Header = () => {
                 <div className='flex gap-[3.5vw]'>
                     <motion.div layout className='flex gap-[4.5vw] max-[768px]:hidden items-center'>
                         {["About", "Services", "Case Studies", "Blog"].map((e, idx) => (
-                            <div className='relative'>
+                            <div className='relative' key={e}>
                                 <motion.div onClick={() => setActive(idx)} style={{ display: 'inline-block' }} className='cursor-pointer relative after: after: after: after:-400 after: z-[10] after:z-[9] bg-[#FaF7F0] px-[15px] py-[5px]'>
                                     <motion.span
                                         initial={{ y: 30, opacity: 0 }}

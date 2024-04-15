@@ -35,7 +35,7 @@ const Landing = () => {
                         transition={{ duration: 50, ease: 'easeOut', repeat: Infinity, repeatType: 'loop', type: 'tween' }}
                     >
                         {['Design', 'Branding', "Deveopment",].map(el => (
-                            <div className='relative '>
+                            <div className='relative ' key={el}>
                                 <Heading text={`${el}`} />
                                 <span
                                     className='absolute right-[-3.4vw] top-1/2 -translate-y-1/2 block bg-green-500 w-[15px] h-[15px] max-[576px]:w-[7px] max-[576px]:h-[7px] bg-green rounded-[50%]'>
